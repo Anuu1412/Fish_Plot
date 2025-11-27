@@ -2,9 +2,9 @@
 
 ### This repository provides a complete guide to generating Fish Plot for Clonal Evolution.
 
-Overview
+## Overview
 Fishplot is a visualization tool used to represent tumor clonal evolution over multiple timepoints. It shows how different clones expand, shrink, or emerge during disease progression or treatment. By displaying clone proportions in smooth, layered shapes, fishplots provide a clear and intuitive way to understand the dynamics and relationships among evolving tumor subpopulations.
-Dataset Requirements
+## Dataset Requirements
 You need three input files, each uploaded separately:
 1. Timepoints
 A file containing one timepoint per line, e.g.:
@@ -20,7 +20,7 @@ Lists each clone's parent clone (0 = no parent):
 0,1,1,3
 
 
-Step-by-Step Tutorial
+## Step-by-Step Tutorial
 1.Install and Load Packages
 First, install and load the required packages. The devtools package lets you install the fishplot package from GitHub, and the fishplot package is responsible for generating the clonal evolution visualization and ggplot2 package is required to generate the plot.
 2.Upload the Timepoints File
@@ -37,7 +37,7 @@ After creating the fish object, you can assign colors if you want to customize t
 Next, use the layoutClones() function to calculate the positions and shapes of each clone. This prepares the fishplot for visualization.
 8.Generate the Fishplot
 Finally, generate the fishplot. The function fishPlot() draws the clonal evolution diagram using smooth boundaries, vertical timepoint lines, and timepoint labels. A title is added at the bottom of the plot to describe the analysis visually.
-Use Cases
+## Use Cases
 1. Tumor Evolution Studies
 Fishplots help visualize how different clones grow or shrink over time in a tumor. This makes it easy to understand how cancer evolves during disease progression.
 2. Drug Response Tracking
@@ -47,7 +47,7 @@ Fishplots show changes in clone frequencies across multiple sequencing timepoint
 4. SingleCell Lineage Dynamics
 Fishplots display relationships between clones derived from singlecell data. They help interpret developmental or evolutionary branching patterns.
 5. Evolutionary Modeling and Simulation
-Modelgenerated clone frequencies can be visualized to validate evolutionary predictions. Fishplots help compare simulation outputs with expected biological behavior.
+Model-generated clone frequencies can be visualized to validate evolutionary predictions. Fishplots help compare simulation outputs with expected biological behavior.
 Output
 The fishplot creates a simple, clear visual showing how each clone changes across timepoints.
 
