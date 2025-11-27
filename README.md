@@ -47,6 +47,7 @@ Fishplots show changes in clone frequencies across multiple sequencing timepoint
 4. SingleCell Lineage Dynamics
 Fishplots display relationships between clones derived from singlecell data. They help interpret developmental or evolutionary branching patterns.
 5. Evolutionary Modeling and Simulation
+   
 Model-generated clone frequencies can be visualized to validate evolutionary predictions. Fishplots help compare simulation outputs with expected biological behavior.
 Output
 The fishplot creates a simple, clear visual showing how each clone changes across timepoints.
