@@ -1,6 +1,6 @@
-#Fish Plot for Tumor Clonal Evolution
+# Fish Plot for Tumor Clonal Evolution
 
-###This repository provides a complete guide to generating Fish Plot for Clonal Evolution.
+### This repository provides a complete guide to generating Fish Plot for Clonal Evolution.
 
 Overview
 Fishplot is a visualization tool used to represent tumor clonal evolution over multiple timepoints. It shows how different clones expand, shrink, or emerge during disease progression or treatment. By displaying clone proportions in smooth, layered shapes, fishplots provide a clear and intuitive way to understand the dynamics and relationships among evolving tumor subpopulations.
